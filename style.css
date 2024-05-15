@@ -1,0 +1,70 @@
+/* Resetting default brawser styles  */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* Globle styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(254, 255, 249);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: rgb(182, 182, 134);
+    color: rgb(243, 238, 233);
+    padding: 20px 0;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-info {
+    margin: 0;
+}
+nav ul  {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header-photo  img{
+width: 100px;
+border: 2px solid black;
+border-radius: 20%;
+}
+.section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.project, .photo{
+    padding-bottom: 20px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills li{
+    background-color: #007bff;
+    list-style-type: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
